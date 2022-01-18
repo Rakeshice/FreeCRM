@@ -1,0 +1,4 @@
+22:05:53.286 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+22:05:53.296 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 95.0.4638.54 (since Chrome 95 is installed in your machine)
+22:05:53.301 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Rakes\.m2\repository\webdriver\chromedriver\win32\95.0.4638.54\chromedriver.exe
+22:06:00.744 [main] INFO  com.crm.qa.base.TestBase - driver is initialized and browser launched

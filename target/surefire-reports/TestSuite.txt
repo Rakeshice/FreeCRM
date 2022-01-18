@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 5, Errors: 0, Skipped: 10, Time elapsed: 120.789 s <<< FAILURE! - in TestSuite
+verifyHomePageTitle(com.crm.qa.tests.HomePageTest)  Time elapsed: 0.379 s  <<< FAILURE!
+java.lang.AssertionError: Title doen't match expected [CRMPRO] but found [Free CRM - CRM software for customer relationship management, sales, and support.]
+	at com.crm.qa.tests.HomePageTest.verifyHomePageTitle(HomePageTest.java:50)
+
+setup(com.crm.qa.tests.ContactsPageTest)  Time elapsed: 5.432 s  <<< FAILURE!
+org.openqa.selenium.NoSuchFrameException: 
+No frame element found by name or id mainpanel
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-HQBDKGDN', ip: '192.168.150.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: unknown
+	at com.crm.qa.tests.ContactsPageTest.setup(ContactsPageTest.java:42)
+
+setup(com.crm.qa.tests.ContactsPageTest)  Time elapsed: 9.539 s  <<< FAILURE!
+org.openqa.selenium.NoSuchFrameException: 
+No frame element found by name or id mainpanel
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-HQBDKGDN', ip: '192.168.150.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: unknown
+	at com.crm.qa.tests.ContactsPageTest.setup(ContactsPageTest.java:42)
+
+clickOnContactsLink(com.crm.qa.tests.HomePageTest)  Time elapsed: 0.42 s  <<< FAILURE!
+org.openqa.selenium.NoSuchFrameException: 
+No frame element found by name or id mainpanel
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-HQBDKGDN', ip: '192.168.150.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: unknown
+	at com.crm.qa.tests.HomePageTest.clickOnContactsLink(HomePageTest.java:56)
+
+loginPageLoginTest(com.crm.qa.tests.LoginPageTest)  Time elapsed: 27.515 s  <<< FAILURE!
+org.openqa.selenium.NoSuchFrameException: 
+No frame element found by name or id mainpanel
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-HQBDKGDN', ip: '192.168.150.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: unknown
+	at com.crm.qa.tests.LoginPageTest.loginPageLoginTest(LoginPageTest.java:68)
+

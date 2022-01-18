@@ -1,0 +1,4 @@
+13:16:01.285 [TestNG-test=End to End testing-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Rakes\.m2\repository\webdriver\chromedriver\win32\96.0.4664.45\chromedriver.exe
+13:16:08.509 [TestNG-test=End to End testing-2] INFO  com.crm.qa.base.TestBase - driver is initialized and browser launched
+13:16:13.064 [TestNG-test=End to End testing-4] INFO  com.crm.qa.base.TestBase - browser closed
+13:16:14.804 [TestNG-test=End to End testing-2] INFO  com.crm.qa.base.TestBase - user logged into the application

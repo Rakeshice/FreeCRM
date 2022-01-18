@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="8" name="Failed suite [Failed suite [FreeCRM application test]]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.crm.qa.util.TestListener"/>
+  </listeners>
+  <test thread-count="8" name="End to End testing(failed)(failed)" verbose="0">
+    <classes>
+      <class name="com.crm.qa.tests.LoginPageTest">
+        <methods>
+          <include name="loginPageLogoTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- End to End testing(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [FreeCRM application test]] -->
